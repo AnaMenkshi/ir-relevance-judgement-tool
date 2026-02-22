@@ -1,7 +1,3 @@
-# =========================================================
-# Assignment 4 – Information Retrieval
-# =========================================================
-
 
 # Tasks:
 # 1. Posting Lists Creation (manual inverted index)
@@ -192,3 +188,4 @@ for doc_id, score, content in filtered_results:
     print(f"\nDoc ID {doc_id} | Score: {score:.4f}\nContent: {content[:300]}...")  # first 300 chars
 
 print("\n Task 3 completed.")
+
